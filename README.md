@@ -12,10 +12,6 @@ Second,  block data is transformed into dataframe containing source and target f
 
 Python is required
 
-```
-Give examples
-```
-
 ### Installing
 
 Install required libraries.
