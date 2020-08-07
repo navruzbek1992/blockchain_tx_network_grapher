@@ -8,6 +8,8 @@ First, in order to get the data, btc block of tx is scraped from learnmeabitcoin
 
 Second,  block data is transformed into dataframe containing source and target for netowrk construction.
 
+tx_network.html displays the netowrk of transactions. It is modifiable with buttons shown below of that figure.
+
 ### Prerequisites
 
 Python is required
