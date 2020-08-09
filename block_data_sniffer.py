@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas
+import pandas as pd
 
 
 def get_dict(address, btc):
@@ -54,4 +54,6 @@ if __name__ == "__main__":
     final_data_vstack.rename(
         columns={"": "target", "level_1": "source", 0: "btc"}, inplace=True
     )
-    final_data1vstack_ = final_data_vstack.loc[final_data_vstack["btc"] != 0].copy()
+    final_data = final_data_vstack.loc[final_data_vstack["btc"] != 0].copy()
+
+    final_data.to_csv('block_tx_edgelist.csv')
