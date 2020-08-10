@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-def get_dict(address, btc):
+def getDict(address, btc):
     mylist = [i.text for i in adds[1 : len(adds)]]
     data = {
         "receivers": mylist,
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         if len(adds) == 0 or len(btc) == 0:
             continue
         else:
-            data = get_dict(adds, btc)
+            data = getDict(adds, btc)
 
         if len(data["receivers"]) != len(data[adds[0].text]):
             continue
