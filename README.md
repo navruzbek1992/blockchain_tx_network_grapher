@@ -25,3 +25,5 @@ pip install -r requirements.txt
 ## Authors
 
 [navruz](https://github.com/navruzbek1992)
+
+*Codes for deep analysis of network will be uploaded soon*
