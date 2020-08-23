@@ -10,6 +10,8 @@ Second,  block data is transformed into a dataframe containing source and target
 
 tx_network.html displays the network of transactions. It is modifiable with buttons shown below of that figure.
 
+![screenshot](screenshot.png)
+
 ### Prerequisites
 
 Python is required
